@@ -1,5 +1,6 @@
 #ifndef SOCKETBASE_H
 #define SOCKETBASE_H
+#include <iostream>
 
 class SocketBase
 {
@@ -9,6 +10,5 @@ public:
   SocketBase(/* args */);
   ~SocketBase();
 };
-
 
 #endif
